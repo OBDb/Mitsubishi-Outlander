@@ -357,7 +357,7 @@
     {"id": "OUTLANDER_AT_ATF_T",              "path": "Transmission", "fmt": {"bix": 72,  "len": 8, "max": 200,       "min": -55,                                 "add": -55,                "unit": "celsius"      }, "name": "Transmission fluid temperature", "suggestedMetric": "transmissionFluidTemperature"},
     {"id": "OUTLANDER_SECONDARY_PRES",        "path": "Transmission", "fmt": {"bix": 88,  "len": 8, "max": 924.98496,                "mul": 3.627392,                                        "unit": "psi"          }, "name": "Secondary pressure"},
     {"id": "OUTLANDER_PRIMARY_PRES",          "path": "Transmission", "fmt": {"bix": 96,  "len": 8, "max": 924.98496,                "mul": 3.627392,                                        "unit": "psi"          }, "name": "Primary pressure"},
-    {"id": "OUTLANDER_CVT_OUT3_ATF_T",        "path": "Transmission", "fmt": {"bix": 104, "len": 8, "max": 200,       "min": -55,                                 "add": -55,                "unit": "celsius"      }, "name": "Fluid temperature, output 3"}
+    {"id": "OUTLANDER_CVT_T_RAW",             "path": "Transmission", "fmt": {"bix": 104, "len": 8, "max": 255,                                                                              "unit": "scalar"       }, "name": "CVT temperature sensor count"}
   ]},
 { "hdr": "7E1", "dbg": true, "cmd": {"21": "04"}, "freq": 0.25,
   "signals": [
