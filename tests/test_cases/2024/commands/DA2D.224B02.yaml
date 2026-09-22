@@ -1,0 +1,5 @@
+command_id: DA2D.224B02
+test_cases:
+- expected_values:
+    OUTLANDER_RL_VSS: 0
+  response: 18DAF12D05624B020000
