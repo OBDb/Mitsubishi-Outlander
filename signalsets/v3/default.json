@@ -422,11 +422,11 @@
   "signals": [
     {"id": "OUTLANDER_FLI_INPUT_DA18_1114", "path": "Fuel", "fmt": { "len": 8, "max": 10.2, "div": 25, "unit": "volts" }, "name": "Fuel level input"}
   ]},
-{ "hdr": "DA18", "dbg": true, "cmd": {"22": "1115"}, "freq": 5,
+{ "hdr": "DA18", "cmd": {"22": "1115"}, "freq": 5, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "OUTLANDER_EVAP_PRES_SNS_V", "path": "Engine", "fmt": { "len": 8, "max": 5.1, "div": 50, "unit": "volts" }, "name": "EVAP pressure sensor voltage"}
   ]},
-{ "hdr": "DA18", "dbg": true, "cmd": {"22": "111F"}, "freq": 5,
+{ "hdr": "DA18", "cmd": {"22": "111F"}, "freq": 5, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "OUTLANDER_EOT", "path": "Engine", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "unit": "celsius" }, "name": "Engine oil temperature", "suggestedMetric": "engineOilTemperature"}
   ]},
@@ -458,23 +458,23 @@
   "signals": [
     {"id": "OUTLANDER_ROLL_OVER_SNS_V", "path": "Engine", "fmt": { "len": 16, "max": 327.675, "div": 200, "unit": "volts" }, "name": "Roll-over sensor voltage"}
   ]},
-{ "hdr": "DA18", "dbg": true, "cmd": {"22": "2170"}, "freq": 5,
+{ "hdr": "DA18", "cmd": {"22": "2170"}, "freq": 5, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "OUTLANDER_ATF_T_DA18_2170", "path": "Transmission", "fmt": {"bix": 232, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Transmission fluid temperature", "suggestedMetric": "transmissionFluidTemperature"}
   ]},
-{ "hdr": "DA2D", "dbg": true, "cmd": {"22": "4B00"}, "freq": 0.25,
+{ "hdr": "DA2D", "cmd": {"22": "4B00"}, "freq": 0.25, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "OUTLANDER_FL_VSS", "path": "Movement", "fmt": { "len": 16, "max": 655.35, "mul": 100, "div": 10000, "unit": "kilometersPerHour" }, "name": "Front left wheel speed"}
   ]},
-{ "hdr": "DA2D", "dbg": true, "cmd": {"22": "4B01"}, "freq": 0.25,
+{ "hdr": "DA2D", "cmd": {"22": "4B01"}, "freq": 0.25, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "OUTLANDER_FR_VSS", "path": "Movement", "fmt": { "len": 16, "max": 655.35, "mul": 100, "div": 10000, "unit": "kilometersPerHour" }, "name": "Front right wheel speed"}
   ]},
-{ "hdr": "DA2D", "dbg": true, "cmd": {"22": "4B02"}, "freq": 0.25,
+{ "hdr": "DA2D", "cmd": {"22": "4B02"}, "freq": 0.25, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "OUTLANDER_RL_VSS", "path": "Movement", "fmt": { "len": 16, "max": 655.35, "mul": 100, "div": 10000, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"}
   ]},
-{ "hdr": "DA2D", "dbg": true, "cmd": {"22": "4B03"}, "freq": 0.25,
+{ "hdr": "DA2D", "cmd": {"22": "4B03"}, "freq": 0.25, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "OUTLANDER_RR_VSS", "path": "Movement", "fmt": { "len": 16, "max": 655.35, "mul": 100, "div": 10000, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"}
   ]}
