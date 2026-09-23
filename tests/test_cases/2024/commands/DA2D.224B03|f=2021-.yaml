@@ -1,4 +1,4 @@
-command_id: DA2D.224B03
+command_id: DA2D.224B03|f=2021-
 test_cases:
 - expected_values:
     OUTLANDER_RR_VSS: 0
