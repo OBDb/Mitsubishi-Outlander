@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     OUTLANDER_RR_VSS: 0
   response: 18DAF12D05624B030000
+- expected_values:
+    OUTLANDER_RR_VSS: 2.53
+  response: 18DAF12D05624B0300FD
+- expected_values:
+    OUTLANDER_RR_VSS: 56.58
+  response: 18DAF12D05624B03161A
