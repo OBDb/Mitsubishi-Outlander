@@ -1,4 +1,4 @@
-command_id: DA18.221115|f=2021-
+command_id: DA18.18.221115|f=2021-
 test_cases:
 - expected_values:
     OUTLANDER_EVAP_PRES_SNS_V: 0

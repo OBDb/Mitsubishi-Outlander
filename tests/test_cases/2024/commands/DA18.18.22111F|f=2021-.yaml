@@ -1,4 +1,4 @@
-command_id: DA18.22111F|f=2021-
+command_id: DA18.18.22111F|f=2021-
 test_cases:
 - expected_values:
     OUTLANDER_EOT: -50
