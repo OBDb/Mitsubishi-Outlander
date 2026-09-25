@@ -1,0 +1,23 @@
+command_id: DA15.15.22111F|f=2021-
+test_cases:
+- expected_values:
+    OUTLANDER_ECM_EOT: 56
+  response: 18DAF1150462111F6A
+- expected_values:
+    OUTLANDER_ECM_EOT: 60
+  response: 18DAF1150462111F6E
+- expected_values:
+    OUTLANDER_ECM_EOT: 64
+  response: 18DAF1150462111F72
+- expected_values:
+    OUTLANDER_ECM_EOT: 68
+  response: 18DAF1150462111F76
+- expected_values:
+    OUTLANDER_ECM_EOT: 71
+  response: 18DAF1150462111F79
+- expected_values:
+    OUTLANDER_ECM_EOT: 74
+  response: 18DAF1150462111F7C
+- expected_values:
+    OUTLANDER_ECM_EOT: 76
+  response: 18DAF1150462111F7E

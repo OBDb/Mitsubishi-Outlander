@@ -1,0 +1,5 @@
+command_id: DA15.15.221207|f=2021-
+test_cases:
+- expected_values:
+    OUTLANDER_ECM_INJ_TIMING: 0
+  response: 18DAF115056212070000

@@ -1,0 +1,11 @@
+command_id: DA15.15.221210|f=2021-
+test_cases:
+- expected_values:
+    OUTLANDER_ECM_TPS2_V: 0.615
+  response: 18DAF11505621210007B
+- expected_values:
+    OUTLANDER_ECM_TPS2_V: 0.62
+  response: 18DAF11505621210007C
+- expected_values:
+    OUTLANDER_ECM_TPS2_V: 0.64
+  response: 18DAF115056212100080
