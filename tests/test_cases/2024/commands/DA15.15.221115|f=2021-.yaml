@@ -1,5 +1,8 @@
 command_id: DA15.15.221115|f=2021-
 test_cases:
 - expected_values:
+    OUTLANDER_ECM_EVAP_PRES_V: 4.04
+  response: 18DAF11504621115CA
+- expected_values:
     OUTLANDER_ECM_EVAP_PRES_V: 4.08
   response: 18DAF11504621115CC

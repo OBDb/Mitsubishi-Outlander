@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     OUTLANDER_ECM_TPS2_V: 0.64
   response: 18DAF115056212100080
+- expected_values:
+    OUTLANDER_ECM_TPS2_V: 1.095
+  response: 18DAF1150562121000DB
