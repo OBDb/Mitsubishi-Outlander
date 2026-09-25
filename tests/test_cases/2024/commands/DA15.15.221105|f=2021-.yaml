@@ -1,0 +1,5 @@
+command_id: DA15.15.221105|f=2021-
+test_cases:
+- expected_values:
+    OUTLANDER_ECM_EGR_T_V: 0
+  response: 18DAF1150462110500

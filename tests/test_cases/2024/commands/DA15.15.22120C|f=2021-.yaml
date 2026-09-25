@@ -1,0 +1,20 @@
+command_id: DA15.15.22120C|f=2021-
+test_cases:
+- expected_values:
+    OUTLANDER_ECM_FUEL_PRES_V: 3.73419
+  response: 18DAF1150562120C2FCC
+- expected_values:
+    OUTLANDER_ECM_FUEL_PRES_V: 3.91577
+  response: 18DAF1150562120C321F
+- expected_values:
+    OUTLANDER_ECM_FUEL_PRES_V: 3.92645
+  response: 18DAF1150562120C3242
+- expected_values:
+    OUTLANDER_ECM_FUEL_PRES_V: 3.93713
+  response: 18DAF1150562120C3265
+- expected_values:
+    OUTLANDER_ECM_FUEL_PRES_V: 3.94781
+  response: 18DAF1150562120C3288
+- expected_values:
+    OUTLANDER_ECM_FUEL_PRES_V: 5.97848
+  response: 18DAF1150562120C4C86

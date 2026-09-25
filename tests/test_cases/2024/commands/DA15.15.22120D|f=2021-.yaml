@@ -1,0 +1,14 @@
+command_id: DA15.15.22120D|f=2021-
+test_cases:
+- expected_values:
+    OUTLANDER_ECM_APP1_V: 0.74
+  response: 18DAF1150562120D0094
+- expected_values:
+    OUTLANDER_ECM_APP1_V: 0.745
+  response: 18DAF1150562120D0095
+- expected_values:
+    OUTLANDER_ECM_APP1_V: 0.75
+  response: 18DAF1150562120D0096
+- expected_values:
+    OUTLANDER_ECM_APP1_V: 0.855
+  response: 18DAF1150562120D00AB

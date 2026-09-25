@@ -1,0 +1,8 @@
+command_id: DA15.15.221111|f=2021-
+test_cases:
+- expected_values:
+    OUTLANDER_ECM_FUEL_T: 22
+  response: 18DAF1150462111148
+- expected_values:
+    OUTLANDER_ECM_FUEL_T: 23
+  response: 18DAF1150462111149

@@ -426,51 +426,51 @@
   "signals": [
     {"id": "OUTLANDER_CLUTCH_1_SLIP_AT_VSS", "path": "Transmission", "fmt": { "len": 16, "max": 65535, "unit": "rpm" }, "name": "Clutch 1 slip speed"}
   ]},
-{ "hdr": "DA15", "rax": "15", "dbg": true, "cmd": {"22": "1105"}, "freq": 5, "filter": { "from": 2021 },
+{ "hdr": "DA15", "rax": "15", "cmd": {"22": "1105"}, "freq": 5, "filter": { "from": 2021 }, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "OUTLANDER_ECM_EGR_T_V", "path": "Engine", "fmt": { "len": 8, "max": 5.1, "div": 50, "unit": "volts" }, "name": "Exhaust gas recirculation temperature sensor voltage"}
   ]},
-{ "hdr": "DA15", "rax": "15", "dbg": true, "cmd": {"22": "1111"}, "freq": 5, "filter": { "from": 2021 },
+{ "hdr": "DA15", "rax": "15", "cmd": {"22": "1111"}, "freq": 5, "filter": { "from": 2021 }, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "OUTLANDER_ECM_FUEL_T", "path": "Fuel", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "unit": "celsius" }, "name": "Fuel temperature"}
   ]},
-{ "hdr": "DA15", "rax": "15", "dbg": true, "cmd": {"22": "1114"}, "freq": 30, "filter": { "from": 2021 },
+{ "hdr": "DA15", "rax": "15", "cmd": {"22": "1114"}, "freq": 30, "filter": { "from": 2021 }, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "OUTLANDER_ECM_FLI_V", "path": "Fuel", "fmt": { "len": 8, "max": 10.2, "div": 25, "unit": "volts" }, "name": "Fuel level input"}
   ]},
-{ "hdr": "DA15", "rax": "15", "dbg": true, "cmd": {"22": "1115"}, "freq": 5, "filter": { "from": 2021 },
+{ "hdr": "DA15", "rax": "15", "cmd": {"22": "1115"}, "freq": 5, "filter": { "from": 2021 }, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "OUTLANDER_ECM_EVAP_PRES_V", "path": "Engine", "fmt": { "len": 8, "max": 5.1, "div": 50, "unit": "volts" }, "name": "EVAP pressure sensor voltage"}
   ]},
-{ "hdr": "DA15", "rax": "15", "dbg": true, "cmd": {"22": "111F"}, "freq": 5, "filter": { "from": 2021 },
+{ "hdr": "DA15", "rax": "15", "cmd": {"22": "111F"}, "freq": 5, "filter": { "from": 2021 }, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "OUTLANDER_ECM_EOT", "path": "Engine", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "unit": "celsius" }, "name": "Engine oil temperature", "suggestedMetric": "engineOilTemperature"}
   ]},
-{ "hdr": "DA15", "rax": "15", "dbg": true, "cmd": {"22": "1207"}, "freq": 1, "filter": { "from": 2021 },
+{ "hdr": "DA15", "rax": "15", "cmd": {"22": "1207"}, "freq": 1, "filter": { "from": 2021 }, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "OUTLANDER_ECM_INJ_TIMING", "path": "Engine", "fmt": { "len": 16, "max": 31.999511, "div": 2048, "unit": "milliseconds" }, "name": "Base injection timing"}
   ]},
-{ "hdr": "DA15", "rax": "15", "dbg": true, "cmd": {"22": "120C"}, "freq": 1, "filter": { "from": 2021 },
+{ "hdr": "DA15", "rax": "15", "cmd": {"22": "120C"}, "freq": 1, "filter": { "from": 2021 }, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "OUTLANDER_ECM_FUEL_PRES_V", "path": "Fuel", "fmt": { "len": 16, "max": 20, "mul": 20, "div": 65535, "unit": "volts" }, "name": "Fuel pressure sensor voltage"}
   ]},
-{ "hdr": "DA15", "rax": "15", "dbg": true, "cmd": {"22": "120D"}, "freq": 0.25, "filter": { "from": 2021 },
+{ "hdr": "DA15", "rax": "15", "cmd": {"22": "120D"}, "freq": 0.25, "filter": { "from": 2021 }, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "OUTLANDER_ECM_APP1_V", "path": "Engine", "fmt": { "len": 16, "max": 327.675, "div": 200, "unit": "volts" }, "name": "Accelerator pedal position sensor 1 voltage"}
   ]},
-{ "hdr": "DA15", "rax": "15", "dbg": true, "cmd": {"22": "120E"}, "freq": 0.25, "filter": { "from": 2021 },
+{ "hdr": "DA15", "rax": "15", "cmd": {"22": "120E"}, "freq": 0.25, "filter": { "from": 2021 }, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "OUTLANDER_ECM_APP2_V", "path": "Engine", "fmt": { "len": 16, "max": 327.675, "div": 200, "unit": "volts" }, "name": "Accelerator pedal position sensor 2 voltage"}
   ]},
-{ "hdr": "DA15", "rax": "15", "dbg": true, "cmd": {"22": "120F"}, "freq": 0.25, "filter": { "from": 2021 },
+{ "hdr": "DA15", "rax": "15", "cmd": {"22": "120F"}, "freq": 0.25, "filter": { "from": 2021 }, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "OUTLANDER_ECM_TPS1_V", "path": "Engine", "fmt": { "len": 16, "max": 327.675, "div": 200, "unit": "volts" }, "name": "Throttle position sensor 1 voltage"}
   ]},
-{ "hdr": "DA15", "rax": "15", "dbg": true, "cmd": {"22": "1210"}, "freq": 0.25, "filter": { "from": 2021 },
+{ "hdr": "DA15", "rax": "15", "cmd": {"22": "1210"}, "freq": 0.25, "filter": { "from": 2021 }, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "OUTLANDER_ECM_TPS2_V", "path": "Engine", "fmt": { "len": 16, "max": 327.675, "div": 200, "unit": "volts" }, "name": "Throttle position sensor 2 voltage"}
   ]},
-{ "hdr": "DA15", "rax": "15", "dbg": true, "cmd": {"22": "121F"}, "freq": 5, "filter": { "from": 2021 },
+{ "hdr": "DA15", "rax": "15", "cmd": {"22": "121F"}, "freq": 5, "filter": { "from": 2021 }, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "OUTLANDER_ECM_ROLLOVER_V", "path": "Engine", "fmt": { "len": 16, "max": 327.675, "div": 200, "unit": "volts" }, "name": "Roll-over sensor voltage"}
   ]},
