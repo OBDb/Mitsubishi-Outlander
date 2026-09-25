@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     OUTLANDER_ECM_FLI_V: 0.92
   response: 18DAF1150462111417
+- expected_values:
+    OUTLANDER_ECM_FLI_V: 1
+  response: 18DAF1150462111419

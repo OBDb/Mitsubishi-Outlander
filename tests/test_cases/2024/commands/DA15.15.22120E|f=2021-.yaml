@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     OUTLANDER_ECM_APP2_V: 0.42
   response: 18DAF1150562120E0054
+- expected_values:
+    OUTLANDER_ECM_APP2_V: 0.595
+  response: 18DAF1150562120E0077
