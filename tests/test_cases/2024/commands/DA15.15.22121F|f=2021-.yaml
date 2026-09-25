@@ -1,0 +1,8 @@
+command_id: DA15.15.22121F|f=2021-
+test_cases:
+- expected_values:
+    OUTLANDER_ECM_ROLLOVER_V: 4.325
+  response: 18DAF1150562121F0361
+- expected_values:
+    OUTLANDER_ECM_ROLLOVER_V: 4.33
+  response: 18DAF1150562121F0362

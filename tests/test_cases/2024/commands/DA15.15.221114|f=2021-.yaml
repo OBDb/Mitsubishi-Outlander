@@ -1,0 +1,8 @@
+command_id: DA15.15.221114|f=2021-
+test_cases:
+- expected_values:
+    OUTLANDER_ECM_FLI_V: 0.88
+  response: 18DAF1150462111416
+- expected_values:
+    OUTLANDER_ECM_FLI_V: 0.92
+  response: 18DAF1150462111417
