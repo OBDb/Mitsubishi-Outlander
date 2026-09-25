@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     OUTLANDER_BCM_TP_FL: 32
   response: '76304620E2680'
+- expected_values:
+    OUTLANDER_BCM_TP_FL: 33
+  response: '76304620E2684'

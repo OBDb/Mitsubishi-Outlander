@@ -6,3 +6,9 @@ test_cases:
 - expected_values:
     OUTLANDER_ECM_FUEL_T: 23
   response: 18DAF1150462111149
+- expected_values:
+    OUTLANDER_ECM_FUEL_T: 25
+  response: 18DAF115046211114B
+- expected_values:
+    OUTLANDER_ECM_FUEL_T: 26
+  response: 18DAF115046211114C
