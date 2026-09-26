@@ -1,4 +1,12 @@
-{ "commands": [
+{ "ecu": [
+    { "hdr": "688",  "type": "hvac" },
+    { "hdr": "743",  "type": "bodyControl" },
+    { "hdr": "773",  "type": "tpms" },
+    { "hdr": "7E1",  "type": "transmission" },
+    { "hdr": "DA15", "type": "engine" },
+    { "hdr": "DA18", "type": "transmission" }
+  ],
+  "commands": [
 { "hdr": "600", "rax": "500", "fcm1": true, "dbg": true, "cmd": {"21": "23"}, "freq": 15, "filter": { "to": 2021 },
   "signals": [
     {"id": "OUTLANDER_TP_FL", "path": "Tires", "fmt": {"bix": 64, "len": 8, "max": 51,              "div": 5,             "unit": "psi"     }, "name": "Pressure front left",    "suggestedMetric": "frontLeftTirePressure"},
