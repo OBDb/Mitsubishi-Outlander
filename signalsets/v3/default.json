@@ -1,4 +1,7 @@
 { "ecu": [
+    { "hdr": "688",  "type": "hvac" },
+    { "hdr": "743",  "type": "bodyControl" },
+    { "hdr": "773",  "type": "tpms" },
     { "hdr": "7E1",  "type": "transmission" },
     { "hdr": "DA15", "type": "engine" },
     { "hdr": "DA18", "type": "transmission" }
