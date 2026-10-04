@@ -1,0 +1,5 @@
+command_id: 7E0.210F|f=-2021
+test_cases:
+- expected_values:
+    OUTLANDER_MPI_PURGE_VALVE_CTRL: 0
+  response: 7E807610F0000000000

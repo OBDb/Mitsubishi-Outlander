@@ -1,0 +1,6 @@
+command_id: 7E1.2106|fc=1,f=-2021
+test_cases:
+- expected_values:
+    OUTLANDER_CVT_SELECTOR_DS: 0
+    OUTLANDER_CVT_SELECTOR_DS_7E1_06: 0
+  response: '7E90461060100'
