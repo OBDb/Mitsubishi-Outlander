@@ -1,0 +1,5 @@
+command_id: 7E0.210E|f=-2021
+test_cases:
+- expected_values:
+    OUTLANDER_MPI_COOLING_FAN_DUTY: 0
+  response: 7E807610E0000000000

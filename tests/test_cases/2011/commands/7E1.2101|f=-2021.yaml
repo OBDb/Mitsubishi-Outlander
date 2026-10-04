@@ -1,0 +1,5 @@
+command_id: 7E1.2101|f=-2021
+test_cases:
+- expected_values:
+    OUTLANDER_PRIMARY_PRES_7E1_01: 127.99664
+  response: 7E8076101C2001DA075

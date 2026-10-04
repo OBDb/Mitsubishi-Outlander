@@ -1,0 +1,9 @@
+command_id: 7E1.2102|f=-2021
+test_cases:
+- expected_values:
+    OUTLANDER_INPUT_VSS: 12032
+    OUTLANDER_OUTPUT_VSS: 0
+  response: 7E8076102405E000000
+- expected_values:
+    OUTLANDER_INPUT_VSS: 3255.5
+  response: 7E906610200196F8C

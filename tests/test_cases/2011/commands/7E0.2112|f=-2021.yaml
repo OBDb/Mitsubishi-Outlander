@@ -1,0 +1,6 @@
+command_id: 7E0.2112|f=-2021
+test_cases:
+- expected_values:
+    OUTLANDER_MPI_TGT_THROTTLE_CTRL: 1.04492
+    OUTLANDER_MPI_THROTTLE_CTRL_SERVO: 4.31373
+  response: 7E807611202170B0000

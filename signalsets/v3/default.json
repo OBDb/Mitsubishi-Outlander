@@ -229,26 +229,26 @@
   "signals": [
     {"id": "OUTLANDER_AWC_MILEAGE", "path": "Drivetrain", "fmt": {"bix": 16, "len": 24, "max": 1677721.5, "div": 10, "unit": "kilometers" }, "name": "Mileage"}
   ]},
-{ "hdr": "7E0", "dbg": true, "cmd": {"21": "01"}, "freq": 0.25, "filter": { "to": 2021 },
+{ "hdr": "7E0", "cmd": {"21": "01"}, "freq": 0.25, "filter": { "to": 2021 }, "dbgfilter": { "to": 2010, "from": 2012 },
   "signals": [
     {"id": "OUTLANDER_MPI_BATTERY_V",       "path": "Engine", "fmt": {           "len": 8,  "max": 18,   "mul": 18,   "div": 255, "unit": "volts"             }, "name": "Battery voltage",    "suggestedMetric": "starterBatteryVoltage"},
     {"id": "OUTLANDER_MPI_VSS",             "path": "Engine", "fmt": {"bix": 8,  "len": 8,  "max": 200,  "mul": 2,                "unit": "kilometersPerHour" }, "name": "Vehicle speed",      "suggestedMetric": "speed"},
     {"id": "OUTLANDER_MPI_CRANK_ANGLE_SNS", "path": "Engine", "fmt": {"bix": 16, "len": 16, "max": 8000,              "div": 8,   "unit": "rpm"               }, "name": "Crank angle sensor"},
     {"id": "OUTLANDER_MPI_TGT_IDLE_RPM",    "path": "Engine", "fmt": {"bix": 32, "len": 8,  "max": 2000, "mul": 2000, "div": 255, "unit": "rpm"               }, "name": "Target idle RPM"}
   ]},
-{ "hdr": "7E0", "dbg": true, "cmd": {"21": "02"}, "freq": 1, "filter": { "to": 2021 },
+{ "hdr": "7E0", "cmd": {"21": "02"}, "freq": 1, "filter": { "to": 2021 }, "dbgfilter": { "to": 2010, "from": 2012 },
   "signals": [
     {"id": "OUTLANDER_MPI_IAT", "path": "Engine", "fmt": {           "len": 8, "max": 120,   "min": -40,                 "add": -40, "unit": "celsius" }, "name": "Intake air temperature"},
     {"id": "OUTLANDER_MPI_ECT", "path": "Engine", "fmt": {"bix": 8,  "len": 8, "max": 215,   "min": -40,                 "add": -40, "unit": "celsius" }, "name": "Engine coolant temperature", "suggestedMetric": "engineCoolantTemperature"},
     {"id": "OUTLANDER_BP",      "path": "Engine", "fmt": {"bix": 16, "len": 8, "max": 49.17,             "mul": 0.19285,             "unit": "psi"     }, "name": "Boost pressure"}
   ]},
-{ "hdr": "7E0", "dbg": true, "cmd": {"21": "03"}, "freq": 1, "filter": { "to": 2021 },
+{ "hdr": "7E0", "cmd": {"21": "03"}, "freq": 1, "filter": { "to": 2021 }, "dbgfilter": { "to": 2010, "from": 2012 },
   "signals": [
     {"id": "OUTLANDER_MPI_MANIFOLD_PRES",  "path": "Engine", "fmt": {           "len": 16, "max": 126,             "div": 512, "unit": "kilopascal" }, "name": "Manifold pressure"},
     {"id": "OUTLANDER_MPI_AIR_FLOW_SNS_V", "path": "Engine", "fmt": {"bix": 16, "len": 8,  "max": 5,   "mul": 5,   "div": 255, "unit": "volts"      }, "name": "Air flow sensor voltage"},
     {"id": "OUTLANDER_MPI_ENGINE_LOAD",    "path": "Engine", "fmt": {"bix": 32, "len": 8,  "max": 100, "mul": 100, "div": 255, "unit": "percent"    }, "name": "Engine load",             "suggestedMetric": "engineLoad"}
   ]},
-{ "hdr": "7E0", "dbg": true, "cmd": {"21": "04"}, "freq": 0.25, "filter": { "to": 2021 },
+{ "hdr": "7E0", "cmd": {"21": "04"}, "freq": 0.25, "filter": { "to": 2021 }, "dbgfilter": { "to": 2010, "from": 2012 },
   "signals": [
     {"id": "OUTLANDER_MPI_THROTTLE_POSITION_MAIN",     "path": "Engine", "fmt": {           "len": 8, "max": 5, "mul": 5, "div": 255, "unit": "volts" }, "name": "Main throttle position"},
     {"id": "OUTLANDER_MPI_THROTTLE_POSITION_SUB",      "path": "Engine", "fmt": {"bix": 8,  "len": 8, "max": 5, "mul": 5, "div": 255, "unit": "volts" }, "name": "Sub throttle position"},
@@ -256,17 +256,17 @@
     {"id": "OUTLANDER_MPI_ACCELERATOR_POSITION_MAIN",  "path": "Engine", "fmt": {"bix": 24, "len": 8, "max": 5, "mul": 5, "div": 255, "unit": "volts" }, "name": "Main accelerator position"},
     {"id": "OUTLANDER_MPI_ACCELERATOR_POSITION_SUB",   "path": "Engine", "fmt": {"bix": 32, "len": 8, "max": 5, "mul": 5, "div": 255, "unit": "volts" }, "name": "Sub accelerator position"}
   ]},
-{ "hdr": "7E0", "dbg": true, "cmd": {"21": "05"}, "freq": 1, "filter": { "to": 2021 },
+{ "hdr": "7E0", "cmd": {"21": "05"}, "freq": 1, "filter": { "to": 2021 }, "dbgfilter": { "to": 2010, "from": 2012 },
   "signals": [
     {"id": "OUTLANDER_MPI_IGN_ADVANCE",         "path": "Engine", "fmt": {          "len": 8, "max": 235,   "min": -20,           "add": -20, "unit": "scalar"       }, "name": "Ignition advance"},
     {"id": "OUTLANDER_MPI_INJECTOR_DRIVE_TIME", "path": "Engine", "fmt": {"bix": 8, "len": 8, "max": 63.75,             "div": 4,             "unit": "milliseconds" }, "name": "Injector drive time"}
   ]},
-{ "hdr": "7E0", "dbg": true, "cmd": {"21": "07"}, "freq": 1, "filter": { "to": 2021 },
+{ "hdr": "7E0", "cmd": {"21": "07"}, "freq": 1, "filter": { "to": 2021 }, "dbgfilter": { "to": 2010, "from": 2012 },
   "signals": [
     {"id": "OUTLANDER_MPI_SHORT_TERM_FUEL_CORRECTION", "path": "Fuel", "fmt": {"bix": 8,  "len": 8, "max": 49.8, "min": -50.19, "mul": 20, "div": 51, "add": -50.196078, "unit": "percent" }, "name": "Short term fuel correction", "suggestedMetric": "shortTermFuelTrim"},
     {"id": "OUTLANDER_MPI_LONG_TERM_FUEL_CORRECTION",  "path": "Fuel", "fmt": {"bix": 16, "len": 8, "max": 49.8, "min": -50.19, "mul": 20, "div": 51, "add": -50.196078, "unit": "percent" }, "name": "Long term fuel correction"}
   ]},
-{ "hdr": "7E0", "dbg": true, "cmd": {"21": "08"}, "freq": 1, "filter": { "to": 2021 },
+{ "hdr": "7E0", "cmd": {"21": "08"}, "freq": 1, "filter": { "to": 2021 }, "dbgfilter": { "to": 2010, "from": 2012 },
   "signals": [
     {"id": "OUTLANDER_MPI_DETONATION_RETARD",       "path": "Engine", "fmt": {"bix": 8,  "len": 8, "max": 90,  "mul": 90,  "div": 255, "unit": "scalar"  }, "name": "Detonation retard"},
     {"id": "OUTLANDER_MPI_DETONATION_CTRL_LEARNED", "path": "Engine", "fmt": {"bix": 16, "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Detonation control learned"}
@@ -275,25 +275,25 @@
   "signals": [
     {"id": "OUTLANDER_MPI_VVT_PHASE_ANGLE", "path": "Engine", "fmt": {"bix": 16, "len": 8, "max": 79.375, "min": -80, "div": 1.6, "add": -80, "unit": "degrees" }, "name": "Variable valve timing phase angle"}
   ]},
-{ "hdr": "7E0", "dbg": true, "cmd": {"21": "0E"}, "freq": 1, "filter": { "to": 2021 },
+{ "hdr": "7E0", "cmd": {"21": "0E"}, "freq": 1, "filter": { "to": 2021 }, "dbgfilter": { "to": 2010, "from": 2012 },
   "signals": [
     {"id": "OUTLANDER_MPI_COOLING_FAN_DUTY", "path": "Engine", "fmt": { "len": 8, "max": 100.011, "mul": 0.3922, "unit": "percent" }, "name": "Cooling fan duty"}
   ]},
-{ "hdr": "7E0", "dbg": true, "cmd": {"21": "0F"}, "freq": 1, "filter": { "to": 2021 },
+{ "hdr": "7E0", "cmd": {"21": "0F"}, "freq": 1, "filter": { "to": 2021 }, "dbgfilter": { "to": 2010, "from": 2012 },
   "signals": [
     {"id": "OUTLANDER_MPI_PURGE_VALVE_CTRL", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Purge valve control"}
   ]},
-{ "hdr": "7E0", "dbg": true, "cmd": {"21": "12"}, "freq": 0.25, "filter": { "to": 2021 },
+{ "hdr": "7E0", "cmd": {"21": "12"}, "freq": 0.25, "filter": { "to": 2021 }, "dbgfilter": { "to": 2010, "from": 2012 },
   "signals": [
     {"id": "OUTLANDER_MPI_TGT_THROTTLE_CTRL",   "path": "Engine", "fmt": {           "len": 16, "max": 5,               "div": 512, "unit": "volts"   }, "name": "Target throttle control"},
     {"id": "OUTLANDER_MPI_THROTTLE_CTRL_SERVO", "path": "Engine", "fmt": {"bix": 16, "len": 8,  "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Throttle control servo"}
   ]},
-{ "hdr": "7E0", "dbg": true, "cmd": {"21": "1A"}, "freq": 1, "filter": { "to": 2021 },
+{ "hdr": "7E0", "cmd": {"21": "1A"}, "freq": 1, "filter": { "to": 2021 }, "dbgfilter": { "to": 2010, "from": 2012 },
   "signals": [
     {"id": "OUTLANDER_MPI_CALCULATED_LOAD", "path": "Engine", "fmt": {          "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Calculated load", "suggestedMetric": "engineLoad"},
     {"id": "OUTLANDER_MPI_ABSOLUTE_LOAD",   "path": "Engine", "fmt": {"bix": 8, "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Absolute load",   "suggestedMetric": "absoluteEngineLoad"}
   ]},
-{ "hdr": "7E0", "dbg": true, "cmd": {"21": "1D"}, "freq": 0.25, "filter": { "to": 2021 },
+{ "hdr": "7E0", "cmd": {"21": "1D"}, "freq": 0.25, "filter": { "to": 2021 }, "dbgfilter": { "to": 2010, "from": 2012 },
   "signals": [
     {"id": "OUTLANDER_MPI_IDLE_STS",                "path": "Engine",  "fmt": {           "len": 1, "max": 1, "unit": "offon" }, "name": "Idle status"},
     {"id": "OUTLANDER_MPI_CRANKING_SIG_ST",         "path": "Engine",  "fmt": {"bix": 1,  "len": 1, "max": 1, "unit": "offon" }, "name": "Cranking signal"},
@@ -303,7 +303,7 @@
     {"id": "OUTLANDER_MPI_NORMAL_BRAKE_CLOSED_STS", "path": "Control", "fmt": {"bix": 30, "len": 1, "max": 1, "unit": "offon" }, "name": "Normal brake closed status"},
     {"id": "OUTLANDER_MPI_BRAKE_SWITCH",            "path": "Control", "fmt": {"bix": 31, "len": 1, "max": 1, "unit": "offon" }, "name": "Brake switch"}
   ]},
-{ "hdr": "7E0", "dbg": true, "cmd": {"21": "1E"}, "freq": 1, "filter": { "to": 2021 },
+{ "hdr": "7E0", "cmd": {"21": "1E"}, "freq": 1, "filter": { "to": 2021 }, "dbgfilter": { "to": 2010, "from": 2012 },
   "signals": [
     {"id": "OUTLANDER_MPI_ENGINE_CTRL_RELAY",    "path": "Engine", "fmt": {"bix": 2, "len": 1, "max": 1, "unit": "offon" }, "name": "Engine control relay"},
     {"id": "OUTLANDER_MPI_THROTTLE_CTRL_RELAY",  "path": "Engine", "fmt": {"bix": 5, "len": 1, "max": 1, "unit": "offon" }, "name": "Throttle control relay"},
@@ -357,18 +357,18 @@
   "signals": [
     {"id": "OUTLANDER_DPF_CHARGE", "path": "Engine", "fmt": { "len": 8, "max": 100.011, "mul": 0.3922, "unit": "percent" }, "name": "Particulate filter load"}
   ]},
-{ "hdr": "7E1", "dbg": true, "cmd": {"21": "01"}, "freq": 1, "filter": { "to": 2021 },
+{ "hdr": "7E1", "cmd": {"21": "01"}, "freq": 1, "filter": { "to": 2021 }, "dbgfilter": { "to": 2010, "from": 2012 },
   "signals": [
     {"id": "OUTLANDER_PRIMARY_PRES_7E1_01", "path": "Transmission", "fmt": {"bix": 24, "len": 8, "max": 254, "min": -85.26, "mul": 1.332854, "add": -85.26, "unit": "psi" }, "name": "Primary pressure"}
   ]},
-{ "hdr": "7E1", "dbg": true, "cmd": {"21": "02"}, "freq": 0.25, "filter": { "to": 2021 },
+{ "hdr": "7E1", "cmd": {"21": "02"}, "freq": 0.25, "filter": { "to": 2021 }, "dbgfilter": { "to": 2010, "from": 2012 },
   "signals": [
     {"id": "OUTLANDER_INPUT_VSS",          "path": "Transmission", "fmt": {"bix": 8,  "len": 16, "max": 32767.5,             "div": 2,             "unit": "rpm"     }, "name": "Input speed"},
     {"id": "OUTLANDER_OUTPUT_VSS",         "path": "Transmission", "fmt": {"bix": 24, "len": 16, "max": 32767.5,             "div": 2,             "unit": "rpm"     }, "name": "Output speed"},
     {"id": "OUTLANDER_ATF_T",              "path": "Transmission", "fmt": {"bix": 40, "len": 8,  "max": 215,     "min": -40,           "add": -40, "unit": "celsius" }, "name": "Transmission fluid temperature", "suggestedMetric": "transmissionFluidTemperature"},
     {"id": "OUTLANDER_SLIP_AT_VSS_7E1_02", "path": "Transmission", "fmt": {"bix": 64, "len": 8,  "max": 204,     "min": -51,           "add": -51, "unit": "rpm"     }, "name": "Slip speed"}
   ]},
-{ "hdr": "7E1", "fcm1": true, "dbg": true, "cmd": {"21": "03"}, "freq": 0.25, "filter": { "to": 2021 },
+{ "hdr": "7E1", "fcm1": true, "cmd": {"21": "03"}, "freq": 0.25, "filter": { "to": 2021 }, "dbgfilter": { "to": 2010, "from": 2012 },
   "signals": [
     {"id": "OUTLANDER_CVT_PRIMARY_VSS",       "path": "Transmission", "fmt": {            "len": 8, "max": 8096,  "min": -64,    "mul": 32,                   "add": -64,                "unit": "rpm"          }, "name": "Primary pulley speed"},
     {"id": "OUTLANDER_CVT_SECONDARY_VSS",     "path": "Transmission", "fmt": {"bix": 8,   "len": 8, "max": 16192, "min": -128,   "mul": 64,                   "add": -128,               "unit": "rpm"          }, "name": "Secondary pulley speed"},
@@ -383,26 +383,26 @@
     {"id": "OUTLANDER_PRIMARY_PRES",          "path": "Transmission", "fmt": {"bix": 96,  "len": 8, "max": 924,                  "mul": 3.627392,                                        "unit": "psi"          }, "name": "Primary pressure"},
     {"id": "OUTLANDER_CVT_T_RAW",             "path": "Transmission", "fmt": {"bix": 104, "len": 8, "max": 255,                                                                          "unit": "scalar"       }, "name": "Transmission temperature sensor count"}
   ]},
-{ "hdr": "7E1", "dbg": true, "cmd": {"21": "04"}, "freq": 0.25, "filter": { "to": 2021 },
+{ "hdr": "7E1", "cmd": {"21": "04"}, "freq": 0.25, "filter": { "to": 2021 }, "dbgfilter": { "to": 2010, "from": 2012 },
   "signals": [
     {"id": "OUTLANDER_AT_CUR_GEAR",          "path": "Transmission", "fmt": {           "len": 8, "max": 255,                          "unit": "scalar"  }, "name": "Current gear"},
     {"id": "OUTLANDER_TARGET_GEAR_AT_RATIO", "path": "Transmission", "fmt": {"bix": 8,  "len": 8, "max": 2.55,             "div": 100, "unit": "scalar"  }, "name": "Target gear ratio"},
     {"id": "OUTLANDER_AT_LINE_PRES",         "path": "Transmission", "fmt": {"bix": 24, "len": 8, "max": 6.3,  "mul": 6.3, "div": 255, "unit": "unknown" }, "name": "Line pressure"}
   ]},
-{ "hdr": "7E1", "fcm1": true, "dbg": true, "cmd": {"21": "05"}, "freq": 1, "filter": { "to": 2021 },
+{ "hdr": "7E1", "fcm1": true, "cmd": {"21": "05"}, "freq": 1, "filter": { "to": 2021 }, "dbgfilter": { "to": 2010, "from": 2012 },
   "signals": [
     {"id": "OUTLANDER_CVT_LU_SOLENOID_OUTPUT_MA",         "path": "Transmission", "fmt": {            "len": 16, "max": 65535, "unit": "milliamps" }, "name": "Lock-up solenoid output current"},
     {"id": "OUTLANDER_CVT_LU_SOLENOID_MONITOR_MA",        "path": "Transmission", "fmt": {"bix": 48,  "len": 16, "max": 65535, "unit": "milliamps" }, "name": "Lock-up solenoid monitor current"},
     {"id": "OUTLANDER_CVT_LU_SEL_CHANGEOVER_SOL_OUTPUT",  "path": "Transmission", "fmt": {"bix": 107, "len": 1,  "max": 1,     "unit": "offon"     }, "name": "Lock-up/select changeover solenoid output"},
     {"id": "OUTLANDER_CVT_LU_SEL_CHANGEOVER_SOL_MONITOR", "path": "Transmission", "fmt": {"bix": 115, "len": 1,  "max": 1,     "unit": "offon"     }, "name": "Lock-up/select changeover solenoid monitor"}
   ]},
-{ "hdr": "7E1", "fcm1": true, "dbg": true, "cmd": {"21": "06"}, "freq": 0.25, "filter": { "to": 2021 },
+{ "hdr": "7E1", "fcm1": true, "cmd": {"21": "06"}, "freq": 0.25, "filter": { "to": 2021 }, "dbgfilter": { "to": 2010, "from": 2012 },
   "signals": [
     {"id": "OUTLANDER_CVT_SELECTOR_DS",        "path": "Transmission", "fmt": {"bix": 3,  "len": 1, "max": 1,                       "unit": "offon"  }, "name": "Sport mode selected"},
     {"id": "OUTLANDER_CVT_SELECTOR_DS_7E1_06", "path": "Transmission", "fmt": {"bix": 12, "len": 1, "max": 1,                       "unit": "offon"  }, "name": "Paddle shift mode"},
     {"id": "OUTLANDER_CVT_GEAR_AT_NUMBER",     "path": "Transmission", "fmt": {"bix": 16, "len": 8, "max": 256, "min": 1, "add": 1, "unit": "scalar" }, "name": "Gear number"}
   ]},
-{ "hdr": "7E1", "fcm1": true, "dbg": true, "cmd": {"21": "07"}, "freq": 0.25, "filter": { "to": 2021 },
+{ "hdr": "7E1", "fcm1": true, "cmd": {"21": "07"}, "freq": 0.25, "filter": { "to": 2021 }, "dbgfilter": { "to": 2010, "from": 2012 },
   "signals": [
     {"id": "OUTLANDER_CVT_SELECTOR_D",       "path": "Transmission", "fmt": {           "len": 1, "max": 1, "unit": "offon" }, "name": "Drive selected"},
     {"id": "OUTLANDER_CVT_SELECTOR_N",       "path": "Transmission", "fmt": {"bix": 1,  "len": 1, "max": 1, "unit": "offon" }, "name": "Neutral selected"},

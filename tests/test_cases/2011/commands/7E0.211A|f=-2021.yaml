@@ -1,0 +1,6 @@
+command_id: 7E0.211A|f=-2021
+test_cases:
+- expected_values:
+    OUTLANDER_MPI_ABSOLUTE_LOAD: 20.39216
+    OUTLANDER_MPI_CALCULATED_LOAD: 24.70588
+  response: 7E807611A3F34000000
