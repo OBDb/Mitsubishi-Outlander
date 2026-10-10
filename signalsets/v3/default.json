@@ -101,7 +101,7 @@
   ]},
 { "hdr": "6A0", "rax": "514", "fcm1": true, "dbg": true, "cmd": {"21": "AD"}, "freq": 30, "filter": { "to": 2021 },
   "signals": [
-    {"id": "OUTLANDER_ODO", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
+    {"id": "OUTLANDER_ODO", "path": "Trips", "fmt": { "len": 24, "blsb": true, "max": 16777215, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
 { "hdr": "6A0", "rax": "514", "fcm1": true, "dbg": true, "cmd": {"21": "AF"}, "freq": 5, "filter": { "to": 2021 },
   "signals": [
