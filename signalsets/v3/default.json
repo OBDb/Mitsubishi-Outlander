@@ -114,19 +114,19 @@
   ]},
 { "hdr": "743", "rax": "763", "fcm1": true, "cmd": {"22": "0E25"}, "freq": 15, "filter": { "from": 2021 }, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
-    {"id": "OUTLANDER_BCM_TP_FR", "path": "Tires", "fmt": { "len": 8, "max": 63.75, "div": 4, "unit": "psi" }, "name": "Front right tire pressure", "suggestedMetric": "frontRightTirePressure"}
+    {"id": "OUTLANDER_BCM_TP_FR", "path": "Tires", "fmt": { "len": 8, "max": 63.75, "div": 4, "nullmin": 0, "unit": "psi" }, "name": "Front right tire pressure", "suggestedMetric": "frontRightTirePressure"}
   ]},
 { "hdr": "743", "rax": "763", "fcm1": true, "cmd": {"22": "0E26"}, "freq": 15, "filter": { "from": 2021 }, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
-    {"id": "OUTLANDER_BCM_TP_FL", "path": "Tires", "fmt": { "len": 8, "max": 63.75, "div": 4, "unit": "psi" }, "name": "Front left tire pressure", "suggestedMetric": "frontLeftTirePressure"}
+    {"id": "OUTLANDER_BCM_TP_FL", "path": "Tires", "fmt": { "len": 8, "max": 63.75, "div": 4, "nullmin": 0, "unit": "psi" }, "name": "Front left tire pressure", "suggestedMetric": "frontLeftTirePressure"}
   ]},
 { "hdr": "743", "rax": "763", "fcm1": true, "cmd": {"22": "0E27"}, "freq": 15, "filter": { "from": 2021 }, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
-    {"id": "OUTLANDER_BCM_TP_RR", "path": "Tires", "fmt": { "len": 8, "max": 63.75, "div": 4, "unit": "psi" }, "name": "Rear right tire pressure", "suggestedMetric": "rearRightTirePressure"}
+    {"id": "OUTLANDER_BCM_TP_RR", "path": "Tires", "fmt": { "len": 8, "max": 63.75, "div": 4, "nullmin": 0, "unit": "psi" }, "name": "Rear right tire pressure", "suggestedMetric": "rearRightTirePressure"}
   ]},
 { "hdr": "743", "rax": "763", "fcm1": true, "cmd": {"22": "0E28"}, "freq": 15, "filter": { "from": 2021 }, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
-    {"id": "OUTLANDER_BCM_TP_RL", "path": "Tires", "fmt": { "len": 8, "max": 63.75, "div": 4, "unit": "psi" }, "name": "Rear left tire pressure", "suggestedMetric": "rearLeftTirePressure"}
+    {"id": "OUTLANDER_BCM_TP_RL", "path": "Tires", "fmt": { "len": 8, "max": 63.75, "div": 4, "nullmin": 0, "unit": "psi" }, "name": "Rear left tire pressure", "suggestedMetric": "rearLeftTirePressure"}
   ]},
 { "hdr": "773", "rax": "774", "fcm1": true, "din": "92", "dbg": true, "cmd": {"21": "A1"}, "freq": 15, "filter": { "to": 2021 },
   "signals": [
