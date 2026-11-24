@@ -121,7 +121,7 @@
   "signals": [
     {"id": "OUTLANDER_BCM_TP_FL", "path": "Tires", "fmt": { "len": 8, "max": 63.75, "div": 4, "nullmin": 0, "unit": "psi" }, "name": "Front left tire pressure", "suggestedMetric": "frontLeftTirePressure"}
   ]},
-{ "hdr": "743", "rax": "763", "fcm1": true, "cmd": {"22": "0E27"}, "freq": 15, "filter": { "from": 2021 }, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "743", "rax": "763", "fcm1": true, "cmd": {"22": "0E27"}, "freq": 15, "filter": { "from": 2021 }, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "OUTLANDER_BCM_TP_RR", "path": "Tires", "fmt": { "len": 8, "max": 63.75, "div": 4, "nullmin": 0, "unit": "psi" }, "name": "Rear right tire pressure", "suggestedMetric": "rearRightTirePressure"}
   ]},
@@ -435,7 +435,7 @@
   "signals": [
     {"id": "OUTLANDER_CLUTCH_1_SLIP_AT_VSS", "path": "Transmission", "fmt": { "len": 16, "max": 65535, "unit": "rpm" }, "name": "Clutch 1 slip speed"}
   ]},
-{ "hdr": "DA15", "rax": "15", "cmd": {"22": "1105"}, "freq": 5, "filter": { "from": 2021 }, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "DA15", "rax": "15", "cmd": {"22": "1105"}, "freq": 5, "filter": { "from": 2021 }, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "OUTLANDER_ECM_EGR_T_V", "path": "Engine", "fmt": { "len": 8, "max": 5.1, "div": 50, "unit": "volts" }, "name": "Exhaust gas recirculation temperature sensor voltage"}
   ]},
@@ -483,7 +483,7 @@
   "signals": [
     {"id": "OUTLANDER_ECM_ROLLOVER_V", "path": "Engine", "fmt": { "len": 16, "max": 327.675, "div": 200, "unit": "volts" }, "name": "Roll-over sensor voltage"}
   ]},
-{ "hdr": "DA18", "rax": "18", "dbg": true, "cmd": {"22": "1105"}, "freq": 5, "filter": { "from": 2021 },
+{ "hdr": "DA18", "rax": "18", "cmd": {"22": "1105"}, "freq": 5, "filter": { "from": 2021 }, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "OUTLANDER_EGR_T_SNS_V", "path": "Engine", "fmt": { "len": 8, "max": 5.1, "div": 50, "unit": "volts" }, "name": "Exhaust gas recirculation temperature sensor voltage"}
   ]},
